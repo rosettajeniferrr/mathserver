@@ -70,7 +70,8 @@ power.html
     </body>
 </html>
 
-CSS
+CSS.css 
+```CSS
 
 body {
     background-color: rgb(255, 255, 164);
@@ -117,7 +118,8 @@ button {
     cursor: pointer;
 }
 
-VIEWS.PY 
+views.py 
+```views
 
 from django.shortcuts import render
 
@@ -146,7 +148,8 @@ def home(request):
     })
 
 
-URLS.PY 
+urls.py 
+```urls
 
 from django.contrib import admin
 from django.urls import path
@@ -165,6 +168,7 @@ urlpatterns = [
 ![alt text](mathh/serverr/static/processing.png)
 
 # HOMEPAGE:
+![alt text](output1.png)
 ![alt text](mathh/serverr/static/output1.png)
 ![alt text](mathh/serverr/static/output2.png)
 ![alt text](mathh/serverr/static/output3.png)

@@ -162,17 +162,14 @@ urlpatterns = [
 
 ```
 
-
-
 # SERVER SIDE PROCESSING:
-![alt text](mathh/serverr/static/processing.png)
+![alt text](processing.png)
 
 # HOMEPAGE:
 ![alt text](output1.png)
-![alt text](mathh/serverr/static/output1.png)
-![alt text](mathh/serverr/static/output2.png)
-![alt text](mathh/serverr/static/output3.png)
-![alt text](mathh/serverr/static/output4.png)
+![alt text](output2.png)
+![alt text](output3.png)
+![alt text](output4.png)
 
 
 # RESULT:

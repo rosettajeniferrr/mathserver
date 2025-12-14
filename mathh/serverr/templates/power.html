@@ -1,0 +1,35 @@
+{% load static %}
+<html>
+    <head>
+        <title>Power Calculation</title>
+        <link rel="stylesheet" href="{% static 'CSS.css' %}">
+        <link rel="icon" href="{% static 'servericon.png' %}">
+    </head>
+    <body>
+        <center>
+            <h1>POWER CALCULATOR</h1>
+            <h2>Rosetta Jenifer.C<br>25012347</h2>
+
+        <div class="box">
+            <p>POWER = I² × R</p>
+            
+        <form method="POST">
+            {% csrf_token %}
+
+            <label>Intensity (I): </label>
+            <input type="number" name="intensity" value="{{ intensity }}" required>
+            <br> <br>
+
+            <label>Resistance (R):</label>
+            <input type="number" name="resistance" value="{{ resistance }}" required>
+            <br> <br>
+            
+            <button type="submit">Calculate</button>
+        </form>
+            
+            <h3> POWER = {{power}} W </h3>
+
+        </center>
+    </div>
+    </body>
+</html>

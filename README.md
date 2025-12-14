@@ -71,7 +71,7 @@ power.html
 </html>
 
 CSS.css 
-```CSS
+
 
 body {
     background-color: rgb(255, 255, 164);
@@ -119,7 +119,7 @@ button {
 }
 
 views.py 
-```views
+
 
 from django.shortcuts import render
 
@@ -149,7 +149,7 @@ def home(request):
 
 
 urls.py 
-```urls
+
 
 from django.contrib import admin
 from django.urls import path

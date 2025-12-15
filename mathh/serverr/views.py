@@ -10,8 +10,8 @@ def home(request):
         resistance = request.POST.get("resistance", "")
 
         if intensity and resistance:
-            I = float(intensity)
-            R = float(resistance)
+            I = int(intensity)
+            R = int(resistance)
             power = (I ** 2) * R
         
         else:

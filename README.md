@@ -32,7 +32,7 @@ Publish the website in the given URL.
 
 power.html
 
-```html
+```
 
 {% load static %}
 <html>
@@ -69,8 +69,10 @@ power.html
     </div>
     </body>
 </html>
+```
 
 CSS.css 
+```
 
 
 body {
@@ -117,9 +119,9 @@ button {
     font-size: 24px;
     cursor: pointer;
 }
-
+```
 views.py 
-
+```
 
 from django.shortcuts import render
 
@@ -146,10 +148,9 @@ def home(request):
         "resistance": resistance,
         "power": power
     })
-
-
+```
 urls.py 
-
+```
 
 from django.contrib import admin
 from django.urls import path
